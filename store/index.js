@@ -3,10 +3,6 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     list:[
-      {key: 0, content: "Reading", done: true},
-      {key: 1, content: "Cleaning the room", done: false},
-      {key: 2, content: "Doing execise", done: false},
-      {key: 3, content: "Meeting", done: false},
     ],
     inputValue: '',
   },
